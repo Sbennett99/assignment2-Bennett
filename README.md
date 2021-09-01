@@ -3,7 +3,7 @@
 There are so many things that I like about this location, though the **heat** is not one of them. I'd love to share more but all other details are **classified**.
 
 ---
-### Ordererded List
+### Directions 
 1. Leave Maryville north on HWY 136
 2. After arriving in Rockport go north on Interstate 29
 3. Get off I29 at exit 10 in Iowa and continue west on IA-2
