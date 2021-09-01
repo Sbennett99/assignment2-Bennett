@@ -19,3 +19,8 @@ There are so many things that I like about this location, though the **heat** is
 12. Stop in Rachel get ready for a hike
     * Hike 25 miles South 
     * Continue Hiking 4 - 5 miles west until you reach your destination
+
+###### A Few Items to Bring
+* Hiking equipment
+* Lots of water
+* A Phone to call your lawyer when you get there, if they let you call them
