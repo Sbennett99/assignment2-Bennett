@@ -50,4 +50,41 @@ We all have our favorite meals, whether it is a desert of main course may even v
 > Time is the most valuable asset you don't own. You may not realize it yet, but how you use or don't use your time is going to be the best indication of where your future is going to take you.
 > *- Mark Cuban*
 
+---
+### Algorithm
 
+> ***Klee's Algorithm***
+> 
+> 1) Put all the coordinates of all the segments in an auxiliary array points[]. 
+> 2) Sort it on the value of the coordinates. 
+> 3) An additional condition for sorting – if there are equal coordinates, insert the one which is the left coordinate of any segment instead of a right one. 
+> 4) Now go through the entire array, with the counter “count” of overlapping segments. 
+> 5) If the count is greater than zero, then the result is added to the difference between the points[i] – points[i-1]. 
+> 6) If the current element belongs to the left end, we increase “count”, otherwise reduce it.
+> [Source: Klee's Algorithm](https://www.geeksforgeeks.org/klees-algorithm-length-union-segments-line/)
+
+```Java
+int length_union(const vector<pair<int, int>> &a) {
+    int n = a.size();
+    vector<pair<int, bool>> x(n*2);
+    for (int i = 0; i < n; i++) {
+        x[i*2] = {a[i].first, false};
+        x[i*2+1] = {a[i].second, true};
+    }
+
+    sort(x.begin(), x.end());
+
+    int result = 0;
+    int c = 0;
+    for (int i = 0; i < n * 2; i++) {
+        if (i > 0 && x[i].first > x[i-1].first && c > 0)
+            result += x[i].first - x[i-1].first;
+        if (x[i].second)
+            c--;
+        else
+            c++;
+    }
+    return result;
+}
+```
+[Code Source](https://cp-algorithms.com/geometry/length-of-segments-union.html)
