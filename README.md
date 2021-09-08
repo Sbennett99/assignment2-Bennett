@@ -27,3 +27,16 @@ There are so many things that I like about this location, though the **heat** is
 
 
 [More About Me](AboutMe.md)
+
+---
+
+### Recomendations
+
+We all have our favorite meals, whether it is a desert of main course may even vary. Furthermore, with those meals there is always one important addition, the drink. Below is a table showing a few of my fa vorite foods and drinks, as well as their average price and where to get them.
+
+| Food/Drink item | Location | Price |
+| --------------- | -------- | ----- |
+| Angel Food Cake | Hyvee    | $7.00 |
+| Spaghetti       | Olive Garden | $13.00 |
+| Pepsi           | Caseys   | $2.00 |
+| Breakfast Pizza | Caseys   | $2.00 |
