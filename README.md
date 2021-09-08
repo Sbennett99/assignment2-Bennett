@@ -40,3 +40,14 @@ We all have our favorite meals, whether it is a desert of main course may even v
 | Spaghetti       | Olive Garden | $13.00 |
 | Pepsi           | Caseys   | $2.00 |
 | Breakfast Pizza | Caseys   | $2.00 |
+
+---
+### Quotes
+
+> Not all those who wander are lost
+> *- J.R.R. Tolkien*
+
+> Time is the most valuable asset you don't own. You may not realize it yet, but how you use or don't use your time is going to be the best indication of where your future is going to take you.
+> *- Mark Cuban*
+
+
